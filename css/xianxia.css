@@ -1,0 +1,92 @@
+.banner {
+    width: 100%;
+    margin: 0 auto;
+}
+.banner img {
+    width: 100%;
+    height: 502px;
+}
+/*线下体验区start*/
+.xianxia {
+    overflow: hidden;
+    width: 1240px;
+    margin:0 auto;
+}
+.xianxia h1 {
+    text-align: center;
+    padding:50px;
+}
+.xianxia .xianxia_left {
+    width: 515px;
+    height: 550px;
+    float: left;
+}
+.xianxia .xianxia_right {
+    width: 701px;
+    height: 550px;
+    float: right;
+}
+.xianxia .xianxia_left .a {
+    width: 495px;
+    height: 74px;
+    margin: 30px 0;
+    border-bottom: 1px solid #999999;
+}
+.xianxia .xianxia_left .a span {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+    background-color: #a0a0ec;
+    float: left;
+
+}
+.xianxia .xianxia_left .a p {
+    font-size: 12px;
+    margin:0 60px;
+}
+.xianxia .xianxia_left .a h4 {
+    margin: 0 60px;
+}
+/*线下体验区end*/
+
+.lunbo img {
+    width: 1240px;
+    height: 540px;
+    display: block;
+}
+.lunbo {
+    width: 1240px;
+    height: 540px;
+    margin: 50px auto;
+    overflow: hidden;
+    background-color: black;
+    margin: 30px auto;
+}
+.lunbo ul {
+    width: 6200px;
+    list-style: none;
+    animation: move 8s linear infinite;
+
+}
+.lunbo ul li {
+    float: left;
+}
+@keyframes move {
+    from {
+        margin-left: 0px;
+    }to{
+         margin-left: -5000px;
+     }
+}
+.lunbo:hover ul {
+    animation-play-state: paused;
+}
+.lunbo:hover ul li {
+    opacity: 0.5;
+}
+.lunbo ul li:hover {
+    opacity: 1;
+}

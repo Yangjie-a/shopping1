@@ -1,0 +1,104 @@
+/*banner区域start*/
+.banner {
+    width: 1366px;
+    height: 503px;
+    margin: 0 auto;
+}
+/*banner区域end*/
+/*家人区域start*/
+.jiaren {
+    width: 1366px;
+    height: 730px;
+    margin: 0 auto;
+}
+.jiaren h1,p{
+    width: 100%;
+    text-align: center;
+}
+.jiaren h1 {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.jiaren ul {
+    width: 810px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.jiaren ul li {
+    float: left;
+    margin: 30px;
+}
+.jiaren ul li img {
+    transition: all 2s;
+}
+.jiaren ul li:hover img {
+    transform: rotate(360deg);
+}
+/*家人区域end*/
+/*场景区域start*/
+.changjing {
+    width: 1366px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+.changjing h1 {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.changjing ul {
+    overflow: hidden;
+    width: 1366px;
+    height: 635px;
+}
+.changjing ul li {
+    width: 394px;
+    height: 585px;
+    float: left;
+    margin: 29.5px;
+}
+/*场景区域end*/
+/*设计区域start*/
+.sheji {
+    width: 1366px;
+    height: 710px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+.sheji h1 {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sheji img {
+    padding-top: 50px;
+}
+/*设计区域end*/
+/*下载区域start*/
+.xiazai {
+    width: 1366px;
+    height: 800px;
+    margin: 0 auto;
+}
+.xiazai h1 {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.xiazai ul {
+    overflow: hidden;
+    width: 100%;
+    height: 56px;
+    margin-left: 390px;
+}
+.xiazai ul li img{
+    width: 177px;
+    height: 56px;
+    float: left;
+    margin-right: 200px;
+}
+/*下载区域end*/

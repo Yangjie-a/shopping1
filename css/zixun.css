@@ -1,0 +1,82 @@
+.banner1 {
+    width: 1519px;
+    height: 290px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.shouye {
+    width: 1200px;
+    height: 61px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCCCCC;
+}
+.shouye span {
+    height: 61px;
+    line-height: 61px;
+}
+.shouye span:nth-child(-n+2)::after {
+    content: '\e902';
+    font-family: icomoon;
+}
+.search {
+    width: 1230px;
+    height: 108px;
+   margin:  0 auto;
+    border-bottom: 2px solid #999999;
+}
+.search input {
+    width: 159px;
+    height: 48px;
+}
+.search form {
+    height: 108px;
+    line-height: 108px;
+    float: right;
+}
+.juji,.kaoya,.wangyue {
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #CCCCCC;
+}
+.juji img,.kaoya img,.wangyue img {
+    padding-top: 20px;
+    width: 460px;
+    height: 259px;
+    float: left;
+}
+.juji .juji_right ,.kaoya .kaoya_right,.wangyue .wangyue_right{
+    padding-top: 30px;
+    width: 660px;
+    height: 252px;
+    float: right;
+}
+.juji .juji_right h1,.kaoya_right h1,.wangyue_right p  {
+    padding-bottom: 40px;
+}
+.juji .juji_right p,.kaoya_right p,.wangyue_right p  {
+    padding-bottom: 40px;
+}
+.biaoyang ,.chufang,.tucao{
+    width: 1200px;
+    height: 263px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCCCCC;
+}
+.biaoyang h1,.chufang h1,.tucao h1 {
+    padding: 40px;
+}
+.xiayiye{
+    width:1200px;
+    overflow: hidden;
+    margin: 80px auto;
+}
+.xiayiye a {
+    display: block;
+    float: left;
+    color: #898787;
+    border: 2px solid #CCCCCC;
+    margin: 8px 10px 50px;
+    padding: 0 5px;
+}
